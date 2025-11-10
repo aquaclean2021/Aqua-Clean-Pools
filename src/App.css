@@ -1,3 +1,57 @@
+/* Force light mode globally */
+html,
+body,
+#root {
+  background-color: #f8fafa;
+  color: #111;
+  color-scheme: light;
+}
+
+/* Override dark mode */
+@media (prefers-color-scheme: dark) {
+  /* Navbar */
+  .navbar {
+    background-color: white !important;
+    color: #111 !important;
+  }
+
+  /* Hero card */
+  .info-card {
+    background-color: #0096c7 !important; /* keep your blue card */
+    color: #ffffff !important;
+  }
+
+  /* Services Detailed */
+  .services-detailed {
+    background-color: #fff !important;
+    color: #111 !important;
+  }
+
+  /* Custom Services */
+  .custom-services-section {
+    background-color: #e0f5fc !important; /* your original light blue */
+    color: #111 !important;
+  }
+
+  /* About Section */
+  .about-section {
+    background-color: #fff !important;
+    color: #111 !important;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    background-color: #fff !important;
+    color: #111 !important;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #fff !important;
+    color: #111 !important;
+  }
+}
+
 /* Reset */
 * {
   margin: 0;
