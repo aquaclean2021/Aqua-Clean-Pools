@@ -1,14 +1,18 @@
 import { useState } from "react";
 import "./App.css";
 
-// ✅ Import images from src/assets/images
+// ✅ Import all images from src/assets/images
 import Logo from "./assets/images/Logo.png";
 import Service1 from "./assets/images/Service1.webp";
 import Service2 from "./assets/images/Service2.webp";
+import RepairsImg from "./assets/images/Repairs.webp";
+import ReplacementsImg from "./assets/images/Replacements.webp";
+import MaintenanceImg from "./assets/images/Maintainance.webp";
 import OurStoryImg from "./assets/images/OurStory.webp";
 import OurMissionImg from "./assets/images/OurMission.webp";
 import CustomService1 from "./assets/images/CustomService1.webp";
 import CustomService2 from "./assets/images/CustomService2.webp";
+import ContactUs from "./assets/images/ContactUs.webp";
 
 function App() {
   const [active, setActive] = useState("Home");
@@ -32,6 +36,7 @@ function App() {
         <div className="logo-section">
           <img src={Logo} alt="Aqua Clean Pools Logo" className="brand-logo" />
         </div>
+
         <div
           className={`menu-toggle ${menuOpen ? "active" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
@@ -40,6 +45,7 @@ function App() {
           <span></span>
           <span></span>
         </div>
+
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
           {navItems.map((item) => (
             <li key={item}>
@@ -91,6 +97,7 @@ function App() {
               </ul>
             </div>
           </div>
+
           <div className="service-pair">
             <div className="service-image">
               <img src={Service2} alt="Pool Service 2" />
@@ -139,6 +146,7 @@ function App() {
       <section id="about" className="about-section">
         <h2>About Us – Aqua Clean Pools</h2>
         <p className="subtitle">Family-Owned. Reliable. Built on Trust.</p>
+
         <div className="about-container">
           <div className="about-text">
             <h3>Our Story</h3>
@@ -157,6 +165,7 @@ function App() {
             <img src={OurStoryImg} alt="Our Story" />
           </div>
         </div>
+
         <div className="about-container">
           <div className="about-image">
             <img src={OurMissionImg} alt="Our Mission" />
