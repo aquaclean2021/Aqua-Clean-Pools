@@ -2,17 +2,17 @@ import { useState } from "react";
 import "./App.css";
 
 // Image Imports
-import RepairsImg from "./assets/images/Repairs.webp";
-import ReplacementsImg from "./assets/images/Replacements.webp";
-import MaintenanceImg from "./assets/images/Maintainance.webp";
-import Service1 from "./assets/images/Service1.webp";
-import Service2 from "./assets/images/Service2.webp";
-import OurStoryImg from "./assets/images/OurStory.webp";
-import OurMissionImg from "./assets/images/OurMission.webp";
-import CustomService1 from "./assets/images/CustomService1.webp";
-import CustomService2 from "./assets/images/CustomService2.webp";
-import ContactUs from "./assets/images/ContactUs.webp";
-import Logo from "./assets/images/Logo.png";
+import RepairsImg from "/assets/images/Repairs.webp";
+import ReplacementsImg from "/assets/images/Replacements.webp";
+import MaintenanceImg from "/assets/images/Maintainance.webp";
+import Service1 from "/assets/images/Service1.webp";
+import Service2 from "/assets/images/Service2.webp";
+import OurStoryImg from "/assets/images/OurStory.webp";
+import OurMissionImg from "/assets/images/OurMission.webp";
+import CustomService1 from "/assets/images/CustomService1.webp";
+import CustomService2 from "/assets/images/CustomService2.webp";
+import ContactUs from "/assets/images/ContactUs.webp";
+import Logo from "/assets/images/Logo.png";
 
 function App() {
   const [active, setActive] = useState("Home");
