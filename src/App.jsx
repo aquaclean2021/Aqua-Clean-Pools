@@ -73,7 +73,14 @@ function App() {
             crystal clear and hassle-free.
           </p>
           <a href="#contact">
-            <button className="cta-btn">Contact Us Now</button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdBsPBmYp5nhjZchxVdgzJlYjc8BnargpQ8XFM0bPC2HJ7j6A/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-btn"
+            >
+              Contact Us
+            </a>
           </a>
         </div>
       </section>
@@ -196,7 +203,14 @@ function App() {
               <br />
               Our custom pool services are designed to fit.
             </p>
-            <button className="custom-btn">Contact Us</button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdBsPBmYp5nhjZchxVdgzJlYjc8BnargpQ8XFM0bPC2HJ7j6A/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="custom-btn"
+            >
+              Contact Us
+            </a>
           </div>
 
           <div className="custom-images">
@@ -236,7 +250,9 @@ function App() {
                 <button onClick={() => handleClick("home")}>Home</button>
               </li>
               <li>
-                <button onClick={() => handleClick("services")}>Shop</button>
+                <button onClick={() => handleClick("services")}>
+                  Services
+                </button>
               </li>
               <li>
                 <button onClick={() => handleClick("about")}>About</button>
