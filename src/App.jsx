@@ -12,7 +12,7 @@ import OurMissionImg from "./assets/images/OurMission.webp";
 import CustomService1 from "./assets/images/CustomService1.webp";
 import CustomService2 from "./assets/images/CustomService2.webp";
 import ContactUs from "./assets/images/ContactUs.webp";
-import Logo from "./assets/images/Logo.png";
+import Logo from "./assets/images/Logo_Rectangle.png";
 
 function App() {
   const [active, setActive] = useState("Home");
